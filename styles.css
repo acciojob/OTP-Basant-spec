@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+#verification_heading{
+	 text-align: center;
+}
+#main{
+	border:2px solid black;
+	padding:20px;
+	border-radius:15px;
+	
+}
+.code{
+	border:0.1px solid lightgrey;
+	width:80px;
+	height:150px;
+}
+.last{
+	border:1px solid lightgrey;
+	border-radius:5px;
+	background-color:lightgrey;
+	
+}
