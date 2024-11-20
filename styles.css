@@ -1,4 +1,8 @@
 /*  your css code here. If applicable */
+.code.focused {
+  border-color: green; /* Change border color to indicate focus */
+}
+
 #verification_heading{
 	 text-align: center;
 }
