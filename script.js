@@ -7,7 +7,7 @@ inputs.forEach((input, index) => {
     // Only move to the next input if a valid digit is entered
     if (/^[0-9]$/.test(input.value)) {
       if (index < inputs.length - 1) {
-        // Move to the next input field
+        // Move focus to the next input field
         inputs[index + 1].focus();
       }
     } else {
@@ -30,7 +30,7 @@ inputs.forEach((input, index) => {
     }
   });
 
-  // Handle arrow navigation (optional, can also be added to handle left/right arrow keys)
+  // Handle arrow navigation (optional)
   input.addEventListener('keydown', function (e) {
     if (e.key === 'ArrowLeft' && index > 0) {
       inputs[index - 1].focus();
